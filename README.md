@@ -16,9 +16,9 @@ With dep.txt as input file, we got the raw data **output/publications.tsv**. And
 ## Network description 
 With visualization tool **Gephi**, we got whole network graph and in-washu collobration network as below:
 Running the **Data Processing.ipyn** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
-![power distrubution](./image/dd.png)
-![shortest path](./image/sp.png)
-![clustering coefﬁcient](./image/acc.png)
+![power distrubution](./images/dd.png)
+![shortest path](./images/sp.png)
+![clustering coefﬁcient](./images/acc.png)
 
 ## Community Detection
 We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And then we compared these two clustering algorithms with 
