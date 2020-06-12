@@ -7,7 +7,7 @@ Given file of links you intend to crawl (has to be only links with the exact for
 
 With dep.txt as input file, we got the raw data **output/publications.tsv**. And the final results are **output/nodes1.tsv** and **output/edges.tsv**. If you wish to use your own links and get the final results as shown in these two files, you should run the java files in the following orders:
 
-**./src/main/java/WebCrawlerEngineering.java**, which crawls all the data using the logic above It will generate two files: output/domain.tsv and output/publications.tsv as the raw data;  
+**./src/main/java/WebCrawlerEngineering.java**, which crawls all the data using the logic above It will generate two files: output/domain.tsv and output/publications.tsv as the raw data;   
 
 **./src/main/java/NodeConstructor.java** It will use the previous output files to constrcut the **output/node.tsv**. Optional inputs: if you have additional informaitons, e.g. affiliation of each nodes, provides the links as the inputs. The examples we provided here are: **output/affiliation/ce_dep.txt**, **output/affiliation/bme_dep.txt**, **output/affiliation/mems_dep.txt**, **output/affiliation/ese_dep.txt**, **output/affiliation/ece_dep.txt**;  
 
@@ -17,8 +17,7 @@ With dep.txt as input file, we got the raw data **output/publications.tsv**. And
 With visualization tool **Gephi**, we got whole network graph and in-washu collobration network as below:
 Running the **Data Processing.ipyn** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
 ![power distrubution](./images/dd.png)
-![shortest path](./images/sp.png)
-![clustering coefﬁcient](./images/acc.png)
+![shortest path](./images/sp.png) ![clustering coefﬁcient](./images/acc.png)
 
 ## Community Detection
 We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And then we compared these two clustering algorithms with 
