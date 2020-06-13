@@ -12,7 +12,7 @@ With dep.txt as input file, we got the raw data **output/publications.tsv**. And
 3.**./src/main/java/EdgeConstructor.java** It will read the **node.tsv** file and generate the final outputs: **output/nodes1.tsv** and **output/edges.tsv**.
 
 ## Network description  
-With visualization tool **Gephi**, we got whole network graph and in-washu collobration network as below:
+With visualization tool **Gephi**, we got whole network graph(left image) and in-washu collobration network(right image) as below:
 <table>
     <tr>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/whole.png"/></center></td>
@@ -21,11 +21,11 @@ With visualization tool **Gephi**, we got whole network graph and in-washu collo
 </table>
 
 ### Collaboration patterns 
-We also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate, take these researcher below for instances:
+We also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate. Take these researcher below for instance, and they are assistant professor, associate professor and professor respectively from left to right:
 <table>
     <tr>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/assistant%20professor.png"/> Assistant professor </center></td>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/associate%20professor.png"/> Associate professor</center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/assistant%20professor.png"/></center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/associate%20professor.png"/></center></td>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/professor.png"/></center></td>
     </tr>
 </table> 
