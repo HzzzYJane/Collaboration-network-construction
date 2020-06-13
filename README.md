@@ -10,7 +10,7 @@ With dep.txt as input file, we got the raw data **output/publications.tsv**. And
 **./src/main/java/WebCrawlerEngineering.java**, which crawls all the data using the logic above It will generate two files: output/domain.tsv and output/publications.tsv as the raw data;   
 
 **./src/main/java/NodeConstructor.java** It will use the previous output files to constrcut the **output/node.tsv**. Optional inputs: if you have additional informaitons, e.g. affiliation of each nodes, provides the links as the inputs. The examples we provided here are: **output/affiliation/ce_dep.txt**, **output/affiliation/bme_dep.txt**, **output/affiliation/mems_dep.txt**, **output/affiliation/ese_dep.txt**, **output/affiliation/ece_dep.txt**;  
---**./src/main/java/EdgeConstructor.java** It will read the **node.tsv** file and generate the final outputs: **output/nodes1.tsv** and **output/edges.tsv**.--
+**./src/main/java/EdgeConstructor.java** It will read the **node.tsv** file and generate the final outputs: **output/nodes1.tsv** and **output/edges.tsv**.
 
 ## Network description 
 With visualization tool **Gephi**, we got whole network graph and in-washu collobration network as below:
@@ -20,7 +20,7 @@ With visualization tool **Gephi**, we got whole network graph and in-washu collo
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/in-washu.png"/></center></td>
     </tr>
 </table>
-Running the **Data Processing.ipyn** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
+Running the **Data Processing.ipynb** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
 <p align="center">
   <img width="500" height="360" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png">
   
@@ -32,7 +32,6 @@ Running the **Data Processing.ipyn** file, we constructed the collaboration netw
 </table>
 
 ## Community Detection
-We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And then we compared these two clustering algorithms' performance with modularity score and assortativity coefﬁcient.
-1.
+We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And we compared these two clustering algorithms' performance by evaluating "isWashU", "Affiliation" and "Fields" these attributes, with modularity score and assortativity coefﬁcient as measure. As a result, we concluded that the modularity maximization performs better than the spectral clustering, and you can find more about this conclusion from file **Data Processing.ipynb**
 
  
