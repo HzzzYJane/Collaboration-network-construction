@@ -22,8 +22,8 @@ With visualization tool **Gephi**, we got whole network graph and in-washu collo
 we also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate, take these researcher below for instances:
 <table>
     <tr>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/G_start.png"/></center></td>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/in-washu.png"/></center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/associate professor.png"/></center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/professor.png"/></center></td>
     </tr>
 </table>
 Running the **Data Processing.ipynb** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
