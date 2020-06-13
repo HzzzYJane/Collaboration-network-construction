@@ -18,13 +18,14 @@ Running the **Data Processing.ipyn** file, we constructed the collaboration netw
 <p align="center">
   <img width="500" height="360" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png">
 <table>
-  <center>
     <tr>
+      <center>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/sp.png" width="300"/></center></td>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/acc.png" width="300"/></center></td>
+      </center>
     </tr>
-  </center>
 </table>
+
 ## Community Detection
 We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And then we compared these two clustering algorithms with 
 1.
