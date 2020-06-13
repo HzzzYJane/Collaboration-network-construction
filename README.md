@@ -11,7 +11,7 @@ With dep.txt as input file, we got the raw data **output/publications.tsv**. And
 2.**./src/main/java/NodeConstructor.java** It will use the previous output files to constrcut the **output/node.tsv**. Optional inputs: if you have additional informaitons, e.g. affiliation of each nodes, provides the links as the inputs. The examples we provided here are: **output/affiliation/ce_dep.txt**, **output/affiliation/bme_dep.txt**, **output/affiliation/mems_dep.txt**, **output/affiliation/ese_dep.txt**, **output/affiliation/ece_dep.txt**;  
 3.**./src/main/java/EdgeConstructor.java** It will read the **node.tsv** file and generate the final outputs: **output/nodes1.tsv** and **output/edges.tsv**.
 
-## Network description 
+## Network description  
 With visualization tool **Gephi**, we got whole network graph and in-washu collobration network as below:
 <table>
     <tr>
@@ -19,18 +19,23 @@ With visualization tool **Gephi**, we got whole network graph and in-washu collo
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/in-washu.png"/></center></td>
     </tr>
 </table>
-we also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate, take these researcher below for instances:
+
+### Collaboration patterns 
+We also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate, take these researcher below for instances:
 <table>
     <tr>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/assistant%20professor.png"/></center></td>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/associate%20professor.png"/></center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/assistant%20professor.png"/> Assistant professor </center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/associate%20professor.png"/> Associate professor</center></td>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/professor.png"/></center></td>
     </tr>
-</table>
+</table> 
+
+### Collaboration network with time evolving  
 Running the **Data Processing.ipynb** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
 <p align="center">
-  <img width="500" height="360" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png">
-  
+  <img width="500" height="320" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png" alt="Degree distribution throughout all the time and in every ﬁve years">
+</p>
+
 <table>
     <tr>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/sp.png"/></center></td>
