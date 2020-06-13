@@ -17,17 +17,16 @@ With visualization tool **Gephi**, we got whole network graph and in-washu collo
 Running the **Data Processing.ipyn** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
 <p align="center">
   <img width="500" height="360" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png">
+  
 <table>
     <tr>
-      <center>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/sp.png" width="300"/></center></td>
-      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/acc.png" width="300"/></center></td>
-      </center>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/sp.png"/></center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/acc.png"/></center></td>
     </tr>
 </table>
 
 ## Community Detection
-We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And then we compared these two clustering algorithms with 
+We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And then we compared these two clustering algorithms' performance with modularity score and assortativity coefﬁcient.
 1.
 
  
