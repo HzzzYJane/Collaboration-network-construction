@@ -33,8 +33,10 @@ We also found out some meaningful collaboration patterns about how WashU CS rese
 ### Collaboration network with time evolving  
 Running the **Data Processing.ipynb** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
 <p align="center">
-  <img width="500" height="320" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png" alt="Degree distribution throughout all the time and in every ﬁve years">
+  <img width="500" height="320" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png">
 </p>
+
+<p align="center">Figure:Degree distribution throughout all the time and in every ﬁve years</p>
 
 <table>
     <tr>
@@ -44,6 +46,6 @@ Running the **Data Processing.ipynb** file, we constructed the collaboration net
 </table>
 
 ## Community Detection
-We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And we compared these two clustering algorithms' performance by evaluating "isWashU", "Affiliation" and "Fields" these attributes, with modularity score and assortativity coefﬁcient as measure. As a result, we concluded that the modularity maximization performs better than the spectral clustering, and you can find more about this conclusion from file **Data Processing.ipynb**
+We mainly used two methods, spectral and modularity maximization clustering algorithms, to cluster the network we have built. And we compared these two clustering algorithms' performance by evaluating "isWashU", "Affiliation" and "Fields" these attributes, with modularity score and assortativity coefﬁcient as measure. As a result, we concluded that the modularity maximization performs better than the spectral clustering, and you can find more about this conclusion from file **Data Processing.ipynb**.
 
  
