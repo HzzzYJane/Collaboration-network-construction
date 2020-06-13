@@ -19,9 +19,11 @@ With visualization tool **Gephi**, we got whole network graph(left image) and in
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/in-washu.png"/></center></td>
     </tr>
 </table>
+<p align="center">Left: Whole network; Right: In-washu network</p>
+
 
 ### Collaboration patterns 
-We also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate. Take these researcher below for instance, and they are assistant professor, associate professor and professor respectively from left to right:
+We also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate. Take these researcher below for instance:
 <table>
     <tr>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/assistant%20professor.png"/></center></td>
@@ -29,14 +31,14 @@ We also found out some meaningful collaboration patterns about how WashU CS rese
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/professor.png"/></center></td>
     </tr>
 </table> 
+<p align="center">From left to right: Assistant professor, associate professor and professor</p>
 
 ### Collaboration network with time evolving  
 Running the **Data Processing.ipynb** file, we constructed the collaboration networks during the year 2000-2006, 2007-2013, and 2014-present and these files were stored in the folder output/collabration_year. And some basic statistics comparisons are shown as below:
 <p align="center">
   <img width="500" height="320" src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/dd.png">
-</p>
-
-<p align="center">Figure:Degree distribution throughout all the time and in every ﬁve years</p>
+</p>  
+<p align="center">Figure: Degree distribution throughout all the time and in every ﬁve years</p>  
 
 <table>
     <tr>
