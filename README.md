@@ -7,13 +7,19 @@ Given file of links you intend to crawl (has to be only links with the exact for
 
 With dep.txt as input file, we got the raw data **output/publications.tsv**. And the final results are **output/nodes1.tsv** and **output/edges.tsv**. If you wish to use your own links and get the final results as shown in these two files, you should run the java files in the following orders:
 
-**./src/main/java/WebCrawlerEngineering.java**, which crawls all the data using the logic above It will generate two files: output/domain.tsv and output/publications.tsv as the raw data;   
-
-**./src/main/java/NodeConstructor.java** It will use the previous output files to constrcut the **output/node.tsv**. Optional inputs: if you have additional informaitons, e.g. affiliation of each nodes, provides the links as the inputs. The examples we provided here are: **output/affiliation/ce_dep.txt**, **output/affiliation/bme_dep.txt**, **output/affiliation/mems_dep.txt**, **output/affiliation/ese_dep.txt**, **output/affiliation/ece_dep.txt**;  
-**./src/main/java/EdgeConstructor.java** It will read the **node.tsv** file and generate the final outputs: **output/nodes1.tsv** and **output/edges.tsv**.
+1.**./src/main/java/WebCrawlerEngineering.java**, which crawls all the data using the logic above It will generate two files: output/domain.tsv and output/publications.tsv as the raw data;   
+2.**./src/main/java/NodeConstructor.java** It will use the previous output files to constrcut the **output/node.tsv**. Optional inputs: if you have additional informaitons, e.g. affiliation of each nodes, provides the links as the inputs. The examples we provided here are: **output/affiliation/ce_dep.txt**, **output/affiliation/bme_dep.txt**, **output/affiliation/mems_dep.txt**, **output/affiliation/ese_dep.txt**, **output/affiliation/ece_dep.txt**;  
+3.**./src/main/java/EdgeConstructor.java** It will read the **node.tsv** file and generate the final outputs: **output/nodes1.tsv** and **output/edges.tsv**.
 
 ## Network description 
 With visualization tool **Gephi**, we got whole network graph and in-washu collobration network as below:
+<table>
+    <tr>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/G_start.png"/></center></td>
+      <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/in-washu.png"/></center></td>
+    </tr>
+</table>
+we also found out some meaningful collaboration patterns about how WashU CS researchers in different career levels(assistant professor, associate professor, professor) collaborate, take these researcher below for instances:
 <table>
     <tr>
       <td><center><img src="https://github.com/HzzzYJane/Collaboration-network-construction/blob/master/images/G_start.png"/></center></td>
